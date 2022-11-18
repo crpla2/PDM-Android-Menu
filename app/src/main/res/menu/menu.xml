@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/uno"
+        android:title="UNO"
+        android:orderInCategory="100"
+       >
+            <menu >
+                <item
+                    android:id="@+id/dos"
+                    android:title="DOS"
+                    android:orderInCategory="101"
+                />
+            <item
+                android:id="@+id/tres"
+                android:title="TRES"
+                android:orderInCategory="101"
+                />
+                />
+            </menu>
+    </item>
+
+    <item
+        android:id="@+id/cuatro"
+        android:title="CUATRO"
+        android:orderInCategory="102"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_launcher_background"></item>
+
+</menu>
